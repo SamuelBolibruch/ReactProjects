@@ -4,6 +4,8 @@ import StarRating from "./components/star-rating";
 import ImageSlider from "./components/image-slider";
 import LoadMoreButton from "./components/load-more-button";
 import TreeView from "./components/tree-view";
+import QrCodeGenerator from "./components/qr-code-generator";
+
 import "./App.css";
 import menus from "./components/tree-view/data";
 
@@ -15,7 +17,8 @@ function App() {
       {/* <StarRating numberOfStars={10}/> */}
       {/* <ImageSlider url={"https://picsum.photos/v2/list"} limit={"10"} page={1} /> */}
       {/* <LoadMoreButton/> */}
-      <TreeView menus={menus}/>
+      {/* <TreeView menus={menus}/> */}
+      <QrCodeGenerator/>
       
     </>
   );
