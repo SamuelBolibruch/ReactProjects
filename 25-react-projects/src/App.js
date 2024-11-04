@@ -6,7 +6,7 @@ import LoadMoreButton from "./components/load-more-button";
 import TreeView from "./components/tree-view";
 import QrCodeGenerator from "./components/qr-code-generator";
 import LightDarkMode from "./components/light-dark-mode";
-import ScrollIndicator from "./components/scroll-indicator"
+import ScrollIndicator from "./components/scroll-indicator";
 import TabTest from "./components/custom-tabs/tab-test";
 
 import "./App.css";
@@ -16,7 +16,7 @@ function App() {
   return (
     <>
       {/* <Accordian/> */}
-      {/* <RandomColor/> */}
+      <RandomColor />
       {/* <StarRating numberOfStars={10}/> */}
       {/* <ImageSlider url={"https://picsum.photos/v2/list"} limit={"10"} page={1} /> */}
       {/* <LoadMoreButton/> */}
@@ -24,10 +24,9 @@ function App() {
       {/* <QrCodeGenerator/> */}
       {/* <LightDarkMode /> */}
       {/* <ScrollIndicator url={'https://dummyjson.com/products?limit=100'}/> */}
-      <TabTest/>
-      
+      {/* <TabTest/> */}
     </>
   );
 }
- 
+
 export default App;
